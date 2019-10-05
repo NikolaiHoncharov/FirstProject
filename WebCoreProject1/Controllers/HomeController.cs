@@ -12,7 +12,8 @@ namespace WebCoreProject1.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            Person _pr = new Person { Name = "Nik Goncharov" };
+            return View(_pr);
         }
 
         public IActionResult About()
