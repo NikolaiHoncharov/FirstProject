@@ -30,3 +30,5 @@ C:\Users\1\Desktop\GitCoreProject\WebCoreProject1\WebCoreProject1\obj\Debug\netc
 C:\Users\1\Desktop\GitCoreProject\WebCoreProject1\WebCoreProject1\obj\Debug\netcoreapp2.1\WebCoreProject1.dll
 C:\Users\1\Desktop\GitCoreProject\WebCoreProject1\WebCoreProject1\obj\Debug\netcoreapp2.1\WebCoreProject1.pdb
 C:\Users\1\Desktop\GitCoreProject\WebCoreProject1\WebCoreProject1\obj\Debug\netcoreapp2.1\WebCoreProject1.csproj.CopyComplete
+C:\Users\1\Desktop\GitCoreProject\WebCoreProject1\WebCoreProject1\bin\Debug\netcoreapp2.1\DataBaseLayer.dll
+C:\Users\1\Desktop\GitCoreProject\WebCoreProject1\WebCoreProject1\bin\Debug\netcoreapp2.1\DataBaseLayer.pdb

@@ -1,0 +1,11 @@
+C:\Users\1\Desktop\GitCoreProject\WebCoreProject1\DataBaseLayer\bin\Debug\netcoreapp2.1\DataBaseLayer.deps.json
+C:\Users\1\Desktop\GitCoreProject\WebCoreProject1\DataBaseLayer\bin\Debug\netcoreapp2.1\DataBaseLayer.dll
+C:\Users\1\Desktop\GitCoreProject\WebCoreProject1\DataBaseLayer\obj\Debug\netcoreapp2.1\DataBaseLayer.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\GitCoreProject\WebCoreProject1\DataBaseLayer\obj\Debug\netcoreapp2.1\DataBaseLayer.AssemblyInfoInputs.cache
+C:\Users\1\Desktop\GitCoreProject\WebCoreProject1\DataBaseLayer\obj\Debug\netcoreapp2.1\DataBaseLayer.AssemblyInfo.cs
+C:\Users\1\Desktop\GitCoreProject\WebCoreProject1\DataBaseLayer\bin\Debug\netcoreapp2.1\DataBaseLayer.runtimeconfig.json
+C:\Users\1\Desktop\GitCoreProject\WebCoreProject1\DataBaseLayer\bin\Debug\netcoreapp2.1\DataBaseLayer.runtimeconfig.dev.json
+C:\Users\1\Desktop\GitCoreProject\WebCoreProject1\DataBaseLayer\bin\Debug\netcoreapp2.1\DataBaseLayer.pdb
+C:\Users\1\Desktop\GitCoreProject\WebCoreProject1\DataBaseLayer\obj\Debug\netcoreapp2.1\DataBaseLayer.dll
+C:\Users\1\Desktop\GitCoreProject\WebCoreProject1\DataBaseLayer\obj\Debug\netcoreapp2.1\DataBaseLayer.pdb
+C:\Users\1\Desktop\GitCoreProject\WebCoreProject1\DataBaseLayer\obj\Debug\netcoreapp2.1\DataBaseLayer.csprojAssemblyReference.cache

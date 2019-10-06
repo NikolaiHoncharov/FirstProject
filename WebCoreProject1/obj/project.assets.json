@@ -4333,6 +4333,20 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "DataBaseLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.1.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.1"
+        },
+        "compile": {
+          "bin/placeholder/DataBaseLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataBaseLayer.dll": {}
+        }
       }
     }
   },
@@ -11791,10 +11805,16 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "DataBaseLayer/1.0.0": {
+      "type": "project",
+      "path": "../DataBaseLayer/DataBaseLayer.csproj",
+      "msbuildProject": "../DataBaseLayer/DataBaseLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "DataBaseLayer >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0"
@@ -11829,7 +11849,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\1\\Desktop\\GitCoreProject\\WebCoreProject1\\DataBaseLayer\\DataBaseLayer.csproj": {
+              "projectPath": "C:\\Users\\1\\Desktop\\GitCoreProject\\WebCoreProject1\\DataBaseLayer\\DataBaseLayer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
