@@ -4,6 +4,62 @@
     "C:\\Users\\1\\Desktop\\GitCoreProject\\WebCoreProject1\\WebCoreProject1\\WebCoreProject1.csproj": {}
   },
   "projects": {
+    "C:\\Users\\1\\Desktop\\GitCoreProject\\WebCoreProject1\\BissnesLayer\\BissnesLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\1\\Desktop\\GitCoreProject\\WebCoreProject1\\BissnesLayer\\BissnesLayer.csproj",
+        "projectName": "BissnesLayer",
+        "projectPath": "C:\\Users\\1\\Desktop\\GitCoreProject\\WebCoreProject1\\BissnesLayer\\BissnesLayer.csproj",
+        "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1\\Desktop\\GitCoreProject\\WebCoreProject1\\BissnesLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\1\\Desktop\\GitCoreProject\\WebCoreProject1\\DataBaseLayer\\DataBaseLayer.csproj": {
+                "projectPath": "C:\\Users\\1\\Desktop\\GitCoreProject\\WebCoreProject1\\DataBaseLayer\\DataBaseLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
     "C:\\Users\\1\\Desktop\\GitCoreProject\\WebCoreProject1\\DataBaseLayer\\DataBaseLayer.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -60,6 +116,69 @@
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "System.Linq": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\1\\Desktop\\GitCoreProject\\WebCoreProject1\\PresentationLayer\\PresentationLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\1\\Desktop\\GitCoreProject\\WebCoreProject1\\PresentationLayer\\PresentationLayer.csproj",
+        "projectName": "PresentationLayer",
+        "projectPath": "C:\\Users\\1\\Desktop\\GitCoreProject\\WebCoreProject1\\PresentationLayer\\PresentationLayer.csproj",
+        "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1\\Desktop\\GitCoreProject\\WebCoreProject1\\PresentationLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\1\\Desktop\\GitCoreProject\\WebCoreProject1\\BissnesLayer\\BissnesLayer.csproj": {
+                "projectPath": "C:\\Users\\1\\Desktop\\GitCoreProject\\WebCoreProject1\\BissnesLayer\\BissnesLayer.csproj"
+              },
+              "C:\\Users\\1\\Desktop\\GitCoreProject\\WebCoreProject1\\DataBaseLayer\\DataBaseLayer.csproj": {
+                "projectPath": "C:\\Users\\1\\Desktop\\GitCoreProject\\WebCoreProject1\\DataBaseLayer\\DataBaseLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
             }
           },
           "imports": [
@@ -96,8 +215,14 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
+              "C:\\Users\\1\\Desktop\\GitCoreProject\\WebCoreProject1\\BissnesLayer\\BissnesLayer.csproj": {
+                "projectPath": "C:\\Users\\1\\Desktop\\GitCoreProject\\WebCoreProject1\\BissnesLayer\\BissnesLayer.csproj"
+              },
               "C:\\Users\\1\\Desktop\\GitCoreProject\\WebCoreProject1\\DataBaseLayer\\DataBaseLayer.csproj": {
                 "projectPath": "C:\\Users\\1\\Desktop\\GitCoreProject\\WebCoreProject1\\DataBaseLayer\\DataBaseLayer.csproj"
+              },
+              "C:\\Users\\1\\Desktop\\GitCoreProject\\WebCoreProject1\\PresentationLayer\\PresentationLayer.csproj": {
+                "projectPath": "C:\\Users\\1\\Desktop\\GitCoreProject\\WebCoreProject1\\PresentationLayer\\PresentationLayer.csproj"
               }
             }
           }
@@ -127,6 +252,10 @@
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.1.9, )"
             }
           },
           "imports": [

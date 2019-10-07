@@ -1,0 +1,14 @@
+C:\Users\1\Desktop\GitCoreProject\WebCoreProject1\PresentationLayer\bin\Debug\netcoreapp2.1\PresentationLayer.deps.json
+C:\Users\1\Desktop\GitCoreProject\WebCoreProject1\PresentationLayer\bin\Debug\netcoreapp2.1\PresentationLayer.dll
+C:\Users\1\Desktop\GitCoreProject\WebCoreProject1\PresentationLayer\bin\Debug\netcoreapp2.1\PresentationLayer.pdb
+C:\Users\1\Desktop\GitCoreProject\WebCoreProject1\PresentationLayer\bin\Debug\netcoreapp2.1\BissnesLayer.dll
+C:\Users\1\Desktop\GitCoreProject\WebCoreProject1\PresentationLayer\bin\Debug\netcoreapp2.1\DataBaseLayer.dll
+C:\Users\1\Desktop\GitCoreProject\WebCoreProject1\PresentationLayer\bin\Debug\netcoreapp2.1\BissnesLayer.pdb
+C:\Users\1\Desktop\GitCoreProject\WebCoreProject1\PresentationLayer\bin\Debug\netcoreapp2.1\DataBaseLayer.pdb
+C:\Users\1\Desktop\GitCoreProject\WebCoreProject1\PresentationLayer\obj\Debug\netcoreapp2.1\PresentationLayer.csprojAssemblyReference.cache
+C:\Users\1\Desktop\GitCoreProject\WebCoreProject1\PresentationLayer\obj\Debug\netcoreapp2.1\PresentationLayer.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\GitCoreProject\WebCoreProject1\PresentationLayer\obj\Debug\netcoreapp2.1\PresentationLayer.AssemblyInfoInputs.cache
+C:\Users\1\Desktop\GitCoreProject\WebCoreProject1\PresentationLayer\obj\Debug\netcoreapp2.1\PresentationLayer.AssemblyInfo.cs
+C:\Users\1\Desktop\GitCoreProject\WebCoreProject1\PresentationLayer\obj\Debug\netcoreapp2.1\PresentationLayer.csproj.CopyComplete
+C:\Users\1\Desktop\GitCoreProject\WebCoreProject1\PresentationLayer\obj\Debug\netcoreapp2.1\PresentationLayer.dll
+C:\Users\1\Desktop\GitCoreProject\WebCoreProject1\PresentationLayer\obj\Debug\netcoreapp2.1\PresentationLayer.pdb

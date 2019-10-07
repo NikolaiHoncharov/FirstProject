@@ -3,19 +3,40 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using DataBaseLayer;
+using DataBaseLayer.Entityes;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using WebCoreProject1.Models;
+using BissnesLayer.Interfaces;
+using BuissnesLayer;
+using PresentationLayer;
+using PresentationLayer.Models;
 
 namespace WebCoreProject1.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        private DataManager _datamanager;
+        private ServicesManager _servicesmanager;
+        public HomeController(/*EFDBContext context, IDirectorysRepository dirRep, */DataManager dataManager)
         {
-            Person _pr = new Person { Name = "Nik Goncharov" };
-            return View(_pr);
+            //_context = context;
+            //dirRep = _dirRep;
+            _datamanager = dataManager;
+            _servicesmanager = new ServicesManager(_datamanager);
         }
 
+        public IActionResult Index()
+        {
+            //HelloModel _model = new HelloModel() { HelloMessage = "Hey Aleksander!" };
+            //List<Directory> _dirs = _context.Directory.Include(x=>x.Materials).ToList();
+            //List<Directory> _dirs = _dirRep.GetAllDirectorys().ToList();
+            //List<Directory> _dirs = _datamanager.Directorys.GetAllDirectorys(true).ToList();
+            List<DirectoryViewModel> _dirs = _servicesmanager.Directorys.GetDirectoryesList();
+
+            return View(_dirs);
+        }
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
